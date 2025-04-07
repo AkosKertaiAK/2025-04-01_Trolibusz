@@ -2,11 +2,13 @@ h2{
   letter-spacing: 1px;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 h2:first-letter {
   font-size: 120%;
   margin-top: 50px;
+  text-transform: uppercase;
 }
 
 p{
@@ -16,7 +18,7 @@ p{
 
 #def{
   font-style: italic;
-  text-align: center;
+  text-align: justify;
 }
 
 #jaratviszonylatok{
@@ -54,10 +56,11 @@ p{
   color: white;
   cursor: pointer;
   padding: 10px;
-  border-radius: 10px; 
+  border-radius: 10px;
   }
 
-#felGomb:hover {
-  background-color: #555;
-}
+  #felGomb:hover{
+    background-color: #555;
+  }
+
 
