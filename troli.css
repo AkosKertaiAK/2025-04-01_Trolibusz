@@ -1,14 +1,6 @@
-h2{
-  letter-spacing: 1px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
 h2:first-letter {
   font-size: 120%;
   margin-top: 50px;
-  text-transform: uppercase;
 }
 
 p{
@@ -18,7 +10,69 @@ p{
 
 #def{
   font-style: italic;
+  text-align: center;
+}
+
+#jaratviszonylatok{
+  text-align: center;
+  border: 2px solid red;
+  border-radius: 15px;
+  margin-bottom: 100px;
+}
+
+#jaratviszonylatok p{
+  text-indent: 0;
+  text-align: center;
+}
+
+#magyarazat{
+  border: 2px solid red;
+  border-radius: 15px;
+  margin: 10px 0 20px;
+}
+
+#magyarazat ol li{
+  margin: 5px -10px 0;
+  font-style: italic;
+  font-size: 90%;
+}
+
+#felGomb {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99; 
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px; 
+  transition: background-color 0.3s ease;
+}
+
+#felGomb:hover {
+  background-color: #ff3737;
+}h2{
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2:first-letter {
+  font-size: 120%;
+  margin-top: 50px;
+}
+
+p{
+  text-indent: 30px;
   text-align: justify;
+}
+
+#def{
+  font-style: italic;
+  text-align: center;
 }
 
 #jaratviszonylatok{
@@ -56,11 +110,10 @@ p{
   color: white;
   cursor: pointer;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 10px; 
   }
 
   #felGomb:hover{
     background-color: #555;
   }
-
 
