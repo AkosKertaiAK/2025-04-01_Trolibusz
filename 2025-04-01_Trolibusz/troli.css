@@ -57,3 +57,7 @@ p{
   border-radius: 10px; 
   }
 
+#felGomb:hover {
+  background-color: #555;
+}
+
